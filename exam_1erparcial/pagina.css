@@ -1,0 +1,121 @@
+
+/*Las Faunas de NICARAGUA*/
+#contenido {
+    text-align: center;
+}
+/*PIE DE PAGINA CON TABLA*/
+
+#banner {
+   max-width: fit-content;
+   background-color: whitesmoke;
+}
+
+#banner1 {
+    float: left;
+    margin: 0px;
+    padding-left: 500px;
+    max-width: max-content;
+}
+#banner2 {
+    float: right;
+    margin: 0px;
+    padding-right: 550px; 
+    max-width: max-content;
+}
+
+#primera {
+    padding: 40px;
+    text-align: center;
+    background: #78b4a979;
+    color: white;
+    font-size: 30px;
+}
+
+
+#terrestres{
+    text-align: center;
+    justify-content: center;
+    margin: 1%;
+    height: 100px;
+    width: 100%;
+    padding: 5px;
+    display: inline-flex;
+}
+#Acuaticas{
+    text-align: center;
+    justify-content: center;
+    margin: 1%;
+    height: 100px;
+    width: 100%;
+    padding: 5px;
+    display: inline-flex;
+}
+#Aerea{
+    text-align: center;
+    justify-content: center;
+    margin: 1%;
+    height: 100px;
+    width: 100%;
+    padding: 5px;
+    display: inline-flex;
+}
+#Otros{
+    text-align: center;
+    justify-content: center;
+    margin: 1%;
+    height: 100px;
+    width: 100%;
+    padding: 5px;
+    display: inline-flex;
+}
+
+#fondo {
+    background: rgba(129, 167, 129, 0.493);
+    max-width: fit-content;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    margin-bottom: 50px;
+    padding: 50px;
+}
+
+#fondo h2 img {
+    margin: 2px;
+}
+
+#menu {
+    background-color: skyblue;
+}
+.button {
+    border-radius: 10px;
+}
+
+.button:hover{
+    color: red;
+    font-size: large;
+    background-color: blue;
+    border-radius: 10px;
+}
+
+#menu a:hover{
+    background-color: darkgray;
+    color: cyan;
+    border-radius: 20px;
+    border-color: cyan;
+    border-radius: 20;
+}
+
+#menu {
+    animation: traslado_p 1000ms ease-in;
+    animation-fill-mode: forwards;
+    transform: translateX(-1000%);
+}
+
+@keyframes traslado_p {
+    0% { transform: translateX(-1000%); }
+    75% { transform: translateX(50%); }
+    100%{ transform: translateX(0%); }
+   }
+
+
